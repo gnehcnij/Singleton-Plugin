@@ -1,4 +1,4 @@
-<idea-plugin version="2">
+<idea-plugin>
     <id>wangyi.plugin.singleton</id>
     <name>Singleton</name>
     <version>1.0</version>
@@ -15,9 +15,6 @@
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
     <depends>com.intellij.modules.java</depends>
-    <depends optional="true">
-        com.intellij.modules.java
-    </depends>
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
     </extensions>
